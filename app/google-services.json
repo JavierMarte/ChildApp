@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "778211931111",
+    "firebase_url": "https://parentchild-6751b.firebaseio.com",
+    "project_id": "parentchild-6751b",
+    "storage_bucket": "parentchild-6751b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778211931111:android:40680d2ab79299a6",
+        "android_client_info": {
+          "package_name": "com.example.kaiso.parentchildapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778211931111-4gh6qfp3jfvtkc0h3j9kampgu9r7pelb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu949xofj5SBzN_Ni1IukDPPTNNFJ5MWg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
