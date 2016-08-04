@@ -80,11 +80,7 @@ public class ParentActivity4 extends AppCompatActivity {
             p.setParam("long","30");
             p.setParam("lat","30");
         }
-        
 
-        // p.setParam("latitude", lat);
-        //p.setParam("longitude", lon);
-        //p.setParam("radius", lon);
 
         MyTask task = new MyTask();
         task.execute(p);
