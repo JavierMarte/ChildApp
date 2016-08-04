@@ -70,8 +70,17 @@ public class ParentActivity4 extends AppCompatActivity {
         EditText hello = (EditText) findViewById(R.id.editText);
        // p.setUri("https://parentchild-6751b.firebaseio.com/users/"+ items.get(1) +"/user/"+ name +".json");
         p.setUri("https://parentchild-6751b.firebaseio.com/users/"+ hello.getText() +".json");
-        p.setParam("long", "20");
-        p.setParam("lat", "30");
+        Tracker gpsTracker = new Tracker(ParentActivity4.this);
+
+        // check if GPS enabled
+        if(gpsTracker.canGetLocation()) {
+            p.setParam("long",String.valueOf(gpsTracker.getLongitude()));
+            p.setParam("lat",String.valueOf(gpsTracker.getLatitude()));
+        }else{
+            p.setParam("long","30");
+            p.setParam("lat","30");
+        }
+        
 
         // p.setParam("latitude", lat);
         //p.setParam("longitude", lon);
